@@ -16,7 +16,7 @@ import TestimonialsPage from './pages/TestimonialsPage';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/SonusSoftwareINCNew">
       <ScrollToTop />
       <div className="min-h-screen font-sans flex flex-col">
         <Navbar />
