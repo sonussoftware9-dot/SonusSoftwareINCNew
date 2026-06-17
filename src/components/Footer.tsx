@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Linkedin, Twitter, Facebook, Github, Mail, ArrowRight, Phone, MapPin } from 'lucide-react';
-import SonusLogo from './SonusLogo';
+import logo from '../assets/Sonus.png'; // Adjust the path to your logo
 
 const footerLinks = {
   Services: [
@@ -75,10 +75,10 @@ export default function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-2">
             <Link to="/">
-              <SonusLogo variant="light" className="h-12 w-auto mb-5" />
+              <img src={logo} alt="Sonus Logo" className="h-10 w-auto mb-4" />
             </Link>
             <p className="text-white/40 text-sm leading-relaxed mb-6 max-w-xs">
-              Delivering enterprise-grade software solutions that power growth for 200+ businesses across 15+ countries since 2009.
+              Delivering enterprise-grade software solutions that power growth for 200+ businesses across 13+ countries since 2013.
             </p>
             <div className="flex gap-3 mb-6">
               {socials.map((s) => (
@@ -95,19 +95,19 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-white/40 text-sm">
                 <Mail size={13} />
-                <a href="mailto:hello@sonussoftware.com" className="hover:text-white transition-colors">
-                  hello@sonussoftware.com
+                <a href="mailto:info@sonussoftwareinc.com" className="hover:text-white transition-colors">
+                  info@sonussoftwareinc.com
                 </a>
               </div>
               <div className="flex items-center gap-2 text-white/40 text-sm">
                 <Phone size={13} />
-                <a href="tel:+18007668700" className="hover:text-white transition-colors">
-                  +1 (800) 766-8700
+                <a href="tel:+18017703133" className="hover:text-white transition-colors">
+                  +1-801-770-3133
                 </a>
               </div>
               <div className="flex items-start gap-2 text-white/40 text-sm">
                 <MapPin size={13} className="mt-0.5 flex-shrink-0" />
-                <span>200 Park Avenue, Suite 1700<br />New York, NY 10166</span>
+                <span>504 W 800 N, Orem<br/> UT 84057, United States of America</span>
               </div>
             </div>
           </div>

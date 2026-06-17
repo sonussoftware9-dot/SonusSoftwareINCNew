@@ -66,7 +66,7 @@ export default function WhyUs() {
             Why 200+ Companies Choose Sonus
           </h2>
           <p className="text-gray-500 text-lg">
-            We combine the agility of a startup with the rigor of an enterprise, backed by 15 years of real-world delivery experience.
+            We combine the agility of a startup with the rigor of an enterprise, backed by 13 years of real-world delivery experience.
           </p>
         </div>
 

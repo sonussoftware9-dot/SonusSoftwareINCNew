@@ -79,20 +79,20 @@ export default function Contact() {
                 {
                   icon: Phone,
                   label: 'Call Us',
-                  value: '+1 (800) 766-8700',
+                  value: '+1-801-770-3133',
                   sub: 'Mon–Fri, 9am–6pm EST',
                 },
                 {
                   icon: Mail,
                   label: 'Email Us',
-                  value: 'hello@sonussoftware.com',
+                  value: 'info@sonussoftwareinc.com',
                   sub: 'Response within 4 hours',
                 },
                 {
                   icon: MapPin,
                   label: 'Headquarters',
-                  value: '200 Park Avenue, Suite 1700',
-                  sub: 'New York, NY 10166, USA',
+                  value: '504 W 800 N, Orem',
+                  sub: 'UT 84057, United States of America',
                 },
               ].map((item) => (
                 <div key={item.label} className="flex gap-4">
