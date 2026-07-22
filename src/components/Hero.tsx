@@ -159,7 +159,7 @@ export default function Hero() {
 
               {/* Experience badge */}
               <div className="absolute -top-4 -right-4 bg-crimson-600 text-white rounded-2xl p-4 shadow-xl">
-                <p className="text-3xl font-black">13+</p>
+                <p className="text-3xl font-black">15+</p>
                 <p className="text-xs font-semibold opacity-90">Years<br />Experience</p>
               </div>
             </div>

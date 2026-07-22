@@ -25,7 +25,7 @@ const leaders = [
     img: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300',
   },
   {
-    name: 'Raj Patel', role: 'VP of Engineering', bio: '13 years building fintech platforms. Led teams at JPMorgan Chase and Goldman Sachs tech divisions.',
+    name: 'Raj Patel', role: 'VP of Engineering', bio: '15 years building fintech platforms. Led teams at JPMorgan Chase and Goldman Sachs tech divisions.',
     img: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300',
   },
   {
@@ -86,7 +86,7 @@ export default function AboutPage() {
       <PageHero
         tag="Our Story"
         title="Building Software That Moves the World Forward"
-        subtitle="For 13 years, Sonus has been the technology partner that growing businesses trust to turn ambitious ideas into production-ready software."
+        subtitle="For 15 years, Sonus has been the technology partner that growing businesses trust to turn ambitious ideas into production-ready software."
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'About Us' }]}
       />
 
@@ -158,7 +158,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-on-scroll">
             <span className="inline-flex items-center gap-2 text-blue-400 font-semibold text-sm uppercase tracking-widest mb-4"><span className="w-6 h-0.5 bg-blue-400 inline-block" />Our Journey</span>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">13 Years of Building Excellence</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">15 Years of Building Excellence</h2>
             <p className="text-white/50 text-lg max-w-2xl mx-auto">Every milestone on this timeline represents real people solving real challenges.</p>
           </div>
           <div className="relative">
@@ -189,7 +189,7 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership */}
-      {/* <section className="py-24 bg-white" ref={teamRef}>
+      <section className="py-24 bg-white" ref={teamRef}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16 animate-on-scroll">
             <span className="section-tag"><span className="w-6 h-0.5 bg-crimson-600 inline-block" />Leadership</span>
@@ -210,7 +210,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section> */}
+      </section>
 
       <Testimonials />
       <Contact />

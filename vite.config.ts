@@ -7,5 +7,4 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/SonusSoftwareINCNew/', // Set the base path for the application
 });

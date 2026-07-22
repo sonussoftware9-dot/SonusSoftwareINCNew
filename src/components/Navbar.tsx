@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, ChevronDown, Phone } from 'lucide-react';
-import logo from '../assets/Sonus.png'; // Adjust the path to your logo
+import SonusLogo from './SonusLogo';
 
 const services = [
   { label: 'Custom Software Development', href: '/services' },
@@ -52,10 +52,10 @@ export default function Navbar() {
   const isHomePage = location.pathname === '/';
 
   const navLinks: NavLink[] = [
-    { label: 'About', href: '/about' },
     { label: 'Services', dropdown: services },
     { label: 'Industries', dropdown: industries },
     { label: 'Portfolio', dropdown: portfolio },
+    { label: 'About', href: '/about' },
     { label: 'Blog', href: '/blog' },
     { label: 'Careers', href: '/careers' },
     { label: 'Contact', href: '/contact' },
@@ -75,8 +75,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex-shrink-0">
-            {/* <SonusLogo variant="light" className="h-12 w-auto" /> */}
-            <img src={logo} alt="Sonus Logo" className="h-12 w-auto" />
+            <SonusLogo variant="light" className="h-12 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
@@ -131,11 +130,11 @@ export default function Navbar() {
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-3">
             <a
-              href="tel:+18017703133"
+              href="tel:+18007668700"
               className="hidden xl:flex items-center gap-2 text-white/70 hover:text-white text-sm font-medium transition-colors"
             >
               <Phone size={14} />
-              +1-801-770-3133
+              +1 (800) 766-8700
             </a>
             <Link
               to="/contact"
